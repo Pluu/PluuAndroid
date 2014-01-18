@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pluu.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.pluu.android.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.navigation.DrawLayoutLeft"
+            android:label="DrawLayout/Draw Layout Left (White)" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.navigation.DrawLayoutRight"
+            android:label="DrawLayout/Draw Layout Right (Black)" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.navigation.SlidingPaneLayoutLeftActivity"
+            android:label="DrawLayout/Sliding Pane Layout Left" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.navigation.SlidingPaneLayoutRightActivity"
+            android:label="DrawLayout/Sliding Pane Layout Right(X)" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.widget.EditTextErrorActivity"
+            android:label="Widget/EditText - Error" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.widget.PagingHorizontalScroll"
+            android:label="Widget/PagingHorizontalScroll" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.widget.HorizontalScrollPagerActivity"
+            android:label="Widget/PagingHorizontalScroll2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pluu.android.anim.AnimationActivity"
+            android:label="Anim/Expand Collapse Anim" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.pluu.android.gategory.menu" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
